@@ -84,6 +84,7 @@ public class ChatServer extends WebSocketServer {
         ex.printStackTrace();
         if (conn != null) {
             // some errors like port binding failed may not be assignable to a specific websocket
+            conn.close();
         }
     }
 

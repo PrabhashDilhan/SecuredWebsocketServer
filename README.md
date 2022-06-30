@@ -8,5 +8,5 @@
 <li>keypassword:fsdfsd</li>
 </ul>
 
-## How to run the client <br />
+## How to run the server <br />
 **java -jar websocketserver-1.0-jar-with-dependencies.jar path-to-config.properties-file**
